@@ -48,3 +48,10 @@ img {
     display: flex;
     align-items: center;
 }
+#back_arrow {
+    padding: 0;
+    position: fixed;
+    left: 10%;
+    bottom: 10%;
+    margin: 0 auto;
+}
