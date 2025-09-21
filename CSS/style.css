@@ -16,6 +16,7 @@ img {
     font-family: 'Arial', sans-serif;
     font-size: 48px;
     margin-top: 20px;
+    color: white
 }
 #tip {
     text-align: center;
@@ -32,7 +33,18 @@ img {
     font-family: 'Arial', sans-serif;
     font-size: 20px;
     margin-top: 20px;
-    padding: 10px;
+    padding-left: 10%;
     position: relative;
     color: white;
+}
+#intro_img {
+    margin: 0 auto;
+    margin-top: 20px;
+    max-height: 100%;
+    max-width: 100%;
+    padding-left: 50%;
+}
+#aligned-straight {
+    display: flex;
+    align-items: center;
 }
