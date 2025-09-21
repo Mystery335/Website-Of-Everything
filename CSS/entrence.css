@@ -1,4 +1,4 @@
-body {
+html, body {
     height: 100%;
     margin: 0;
     padding: 0;
@@ -26,4 +26,13 @@ img {
     font-style: italic;
     position: absolute;
     transform: rotate(-25deg);
+}
+#pop-up {
+    text-align: left;
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    position: relative;
+    color: white;
 }
