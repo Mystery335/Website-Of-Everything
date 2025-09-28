@@ -1,5 +1,7 @@
 body {
-        background-color: darkblue;
+        background: rgba(255, 255, 255, 0.22);
+        background-color: #ADD8E6;
+        position: fixed;
     }
 
 .ac {
