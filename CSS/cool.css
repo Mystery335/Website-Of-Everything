@@ -1,8 +1,14 @@
 body {
-        background: rgba(255, 255, 255, 0.22);
-        background-color: #ADD8E6;
-        position: fixed;
+        
+    background-color: #ADD8E6;
+    position: relative;
+    min-height: 100vh;
+    margin: 0;
     }
+
+.frost {
+    background: rgba(255, 255, 255, 0.22);
+}
 
 .ac {
     margin-left: -500px;
