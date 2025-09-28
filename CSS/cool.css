@@ -1,13 +1,17 @@
 body {
         
-    background-color: #ADD8E6;
+    background-color: #1aaddd;
     position: relative;
     min-height: 100vh;
     margin: 0;
     }
 
 .frost {
-    background: rgba(255, 255, 255, 0.22);
+    background: rgba(255, 255, 255, 0.3);
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 1000;
 }
 
 .snowflakes {
