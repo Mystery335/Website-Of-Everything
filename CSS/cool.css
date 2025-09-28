@@ -10,6 +10,11 @@ body {
     background: rgba(255, 255, 255, 0.22);
 }
 
+.snowflakes {
+    margin-left: 600px;
+    margin-bottom: 550px
+}
+
 .ac {
     margin-left: -500px;
     margin-bottom: 550px;
