@@ -1,6 +1,23 @@
 body {
-        background-color: darkblue;
+        
+    background-color: #1aaddd;
+    position: relative;
+    min-height: 100vh;
+    margin: 0;
     }
+
+.frost {
+    background: rgba(255, 255, 255, 0.3);
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 1000;
+}
+
+.snowflakes {
+    margin-left: 600px;
+    margin-bottom: 550px
+}
 
 .ac {
     margin-left: -500px;
