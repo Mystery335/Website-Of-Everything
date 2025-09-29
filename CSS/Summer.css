@@ -1,6 +1,9 @@
 html, body{
 
 background-color: rgb(37, 206, 249);
+overflow: auto;
+overflow-y: hidden;  
+overflow-x: hidden;  
 
 
 
@@ -17,8 +20,23 @@ left: 0px;
 }
 
 #grass{
+    
+
+/* 
+background-image: url("../Images/grass.png");
+white-space: nowrap;
+
+width: 50000px;
+height: 201px;
+left: 1px; 
+bottom: 1px;
 position: fixed;
-bottom: 0px;
-align-items: center;
-left: 0px;
+align-items: center; */
+
+ 
+
+
+
+ 
+
 }
