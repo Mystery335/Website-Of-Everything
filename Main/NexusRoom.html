@@ -2,17 +2,49 @@
 <html>
     <head>
         <title>Main</title>
+        <style>
+        /* Container for all images */
+    .image-gallery {
+      display: flex;
+      flex-wrap: wrap; /* allows images to wrap to next line if needed */
+      justify-content: center; /* centers everything */
+      gap: 20px; /* spacing between items */
+      margin: 20px;
+    }
+
+    /* Each image + label pair */
+    .image-item {
+      text-align: center;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Style images */
+    .image-item img {
+      width: 200px;
+      height: 200px;
+      border-radius: 10px; /* optional: rounded corners */
+      object-fit: cover;
+      transition: transform 0.2s ease; /* small hover effect */
+    }
+
+    .image-item img:hover {
+      transform: scale(1.05);
+    }
+
+    /* Back arrow at the bottom */
+    #back_arrow {
+      display: block;
+      margin: 40px auto;
+      cursor: pointer;
+    }
+        </style>
     </head>
     <body>
         <h1>This is where everything begins</h1>
-        <div style="display: inline-block;">
-            <img src="../Images/Spring.png" width="200px" height="200px">
-            <p>Spring</p>
-        </div>
-        <div>
-            <img src="../Images/Summer.png" width="200px" height="200px">
-            <p>Summer</p>
-        </div>
+        <img src="../Images/Spring.png" width="200px" height="200px">
+        <p>Spring</p>
+        <img src="../Images/Summer.png" width="200px" height="200px">
+        <p>Summer</p>
         <img src="../Images/Fall.png" width="200px" height="200px">
         <p>Fall</p>
         <img src="../Images/Winter.png" width="200px" height="200px">
