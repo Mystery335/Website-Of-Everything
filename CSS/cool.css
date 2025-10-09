@@ -15,17 +15,21 @@ body {
 }
 
 .snowflakes {
-    margin-left: 600px;
-    margin-bottom: 550px
+    position: relative;
+    left: 600px;
+    bottom: 10px
 }
 
 .ac {
-    margin-left: -500px;
-    margin-bottom: 550px;
+    position: relative;
+    left: 500px;
+    bottom: 250px;
 }
 
 .iceice {
-margin-left: 600px;
+position: relative;
+left: -600px;
+bottom: 10px;
 width: 300px;
 height: 300px;
 
