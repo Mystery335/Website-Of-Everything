@@ -1,9 +1,15 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Main</title>
-        <style>
-        /* Container for all images */
+<head>
+  <title>Main</title>
+  <style>
+    /* Style the page title */
+    h1 {
+      text-align: center;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Container for all images */
     .image-gallery {
       display: flex;
       flex-wrap: wrap; /* allows images to wrap to next line if needed */
@@ -37,31 +43,51 @@
       margin: 40px auto;
       cursor: pointer;
     }
-        </style>
-    </head>
-    <body>
-        <h1>This is where everything begins</h1>
-        <img src="../Images/Spring.png" width="200px" height="200px">
-        <p>Spring</p>
-        <img src="../Images/Summer.png" width="200px" height="200px">
-        <p>Summer</p>
-        <img src="../Images/Fall.png" width="200px" height="200px">
-        <p>Fall</p>
-        <img src="../Images/Winter.png" width="200px" height="200px">
-        <p>Winter</p>
-        <img src="../Images/Games.png" width="200px" height="200px">
-        <p>Games</p>
-        <img src="../Images/Riddles.png" width="200px" height="200px">
-        <p>Riddles</p>
-        <img src="../Images/School.png" width="200px" height="200px">
-        <p>School</p>
-        <img src="../Images/Sports.png" width="200px" height="200px">
-        <p>Sports</p>
-        <img src="../Images/Door.jpg" width="200px" height="200px">
-        <img src="../Images/Door.jpg" width="200px" height="200px">
-        <img src="../Images/Door.jpg" width="200px" height="200px">
-        <img src="../Images/Door.jpg" width="200px" height="200px">
-        <p>Other</p>
-        <img id = "back_arrow" src = "../Images/Left Arrow.png" width = "117" height = "87" onclick="history.back()">
-    </body>
+  </style>
+</head>
+
+<body>
+  <h1>This is where everything begins</h1>
+
+  <div class="image-gallery">
+    <div class="image-item">
+      <img src="../Images/Spring.png" alt="Spring">
+      <p>Spring</p>
+    </div>
+    <div class="image-item">
+      <img src="../Images/Summer.png" alt="Summer">
+      <p>Summer</p>
+    </div>
+    <div class="image-item">
+      <img src="../Images/Fall.png" alt="Fall">
+      <p>Fall</p>
+    </div>
+    <div class="image-item">
+      <img src="../Images/Winter.png" alt="Winter">
+      <p>Winter</p>
+    </div>
+    <div class="image-item">
+      <img src="../Images/Games.png" alt="Games">
+      <p>Games</p>
+    </div>
+    <div class="image-item">
+      <img src="../Images/Riddles.png" alt="Riddles">
+      <p>Riddles</p>
+    </div>
+    <div class="image-item">
+      <img src="../Images/School.png" alt="School">
+      <p>School</p>
+    </div>
+    <div class="image-item">
+      <img src="../Images/Sports.png" alt="Sports">
+      <p>Sports</p>
+    </div>
+    <div class="image-item">
+      <img src="../Images/Door.jpg" alt="Other">
+      <p>Other</p>
+    </div>
+  </div>
+
+  <img id="back_arrow" src="../Images/Left Arrow.png" width="117" height="87" onclick="history.back()">
+</body>
 </html>
