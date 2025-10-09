@@ -1,0 +1,40 @@
+/* Style the page title */
+    h1 {
+      text-align: center;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Container for all images */
+    .image-gallery {
+      display: flex;
+      flex-wrap: wrap; /* allows images to wrap to next line if needed */
+      justify-content: center; /* centers everything */
+      gap: 20px; /* spacing between items */
+      margin: 20px;
+    }
+
+    /* Each image + label pair */
+    .image-item {
+      text-align: center;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Style images */
+    .image-item img {
+      width: 200px;
+      height: 200px;
+      border-radius: 10px; /* optional: rounded corners */
+      object-fit: cover;
+      transition: transform 0.2s ease; /* small hover effect */
+    }
+
+    .image-item img:hover {
+      transform: scale(1.05);
+    }
+
+    /* Back arrow at the bottom */
+    #back_arrow {
+      display: block;
+      margin: 40px auto;
+      cursor: pointer;
+    }
